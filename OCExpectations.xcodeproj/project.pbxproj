@@ -10,7 +10,6 @@
 		7807A2CE15B447E100E69441 /* OCSpecBaseMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7807A2CC15B447E100E69441 /* OCSpecBaseMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7807A2CF15B447E100E69441 /* OCSpecBaseMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7807A2CD15B447E100E69441 /* OCSpecBaseMatcher.m */; };
 		7807A2DF15B4542A00E69441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7807A2DE15B4542A00E69441 /* Foundation.framework */; };
-		7807A2ED15B4542A00E69441 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C5D6C215B2858B00CA3D41 /* SenTestingKit.framework */; };
 		7807A2EF15B4542A00E69441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7807A2EE15B4542A00E69441 /* UIKit.framework */; };
 		7807A2F015B4542A00E69441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7807A2DE15B4542A00E69441 /* Foundation.framework */; };
 		7807A2F315B4542A00E69441 /* libOCExpectations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7807A2DD15B4542A00E69441 /* libOCExpectations.a */; };
@@ -77,7 +76,6 @@
 		78C49B6215B42F3100758C9D /* OCSpecBeAKindOfMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C49B6015B42F3100758C9D /* OCSpecBeAKindOfMatcher.m */; };
 		78C5D6AD15B2858B00CA3D41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C5D6AC15B2858B00CA3D41 /* Cocoa.framework */; };
 		78C5D6B715B2858B00CA3D41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C5D6B515B2858B00CA3D41 /* InfoPlist.strings */; };
-		78C5D6C315B2858B00CA3D41 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C5D6C215B2858B00CA3D41 /* SenTestingKit.framework */; };
 		78C5D6C415B2858B00CA3D41 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C5D6AC15B2858B00CA3D41 /* Cocoa.framework */; };
 		78C5D6C715B2858B00CA3D41 /* OCExpectations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C5D6A915B2858B00CA3D41 /* OCExpectations.framework */; };
 		78C5D6CD15B2858B00CA3D41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C5D6CB15B2858B00CA3D41 /* InfoPlist.strings */; };
@@ -172,7 +170,7 @@
 		7807A2CD15B447E100E69441 /* OCSpecBaseMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCSpecBaseMatcher.m; sourceTree = "<group>"; };
 		7807A2DD15B4542A00E69441 /* libOCExpectations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOCExpectations.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7807A2DE15B4542A00E69441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7807A2EC15B4542A00E69441 /* OCExpectationsLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCExpectationsLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7807A2EC15B4542A00E69441 /* OCExpectationsLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCExpectationsLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7807A2EE15B4542A00E69441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7834617115B843B900412CAA /* OCExceptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCExceptions.h; sourceTree = "<group>"; };
 		7834617215B843B900412CAA /* OCExceptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCExceptions.m; sourceTree = "<group>"; };
@@ -206,8 +204,7 @@
 		78C5D6B415B2858B00CA3D41 /* OCExpectations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCExpectations-Info.plist"; sourceTree = "<group>"; };
 		78C5D6B615B2858B00CA3D41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78C5D6B815B2858B00CA3D41 /* OCExpectations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCExpectations-Prefix.pch"; sourceTree = "<group>"; };
-		78C5D6C115B2858B00CA3D41 /* OCExpectationsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCExpectationsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78C5D6C215B2858B00CA3D41 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		78C5D6C115B2858B00CA3D41 /* OCExpectationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCExpectationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C5D6CA15B2858B00CA3D41 /* OCExpectationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCExpectationsTests-Info.plist"; sourceTree = "<group>"; };
 		78C5D6CC15B2858B00CA3D41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		78C5D6CE15B2858B00CA3D41 /* OCExpectationsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCExpectationsTests.h; sourceTree = "<group>"; };
@@ -247,7 +244,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7807A2ED15B4542A00E69441 /* SenTestingKit.framework in Frameworks */,
 				7807A2EF15B4542A00E69441 /* UIKit.framework in Frameworks */,
 				7807A2F015B4542A00E69441 /* Foundation.framework in Frameworks */,
 				7807A2F315B4542A00E69441 /* libOCExpectations.a in Frameworks */,
@@ -266,7 +262,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C5D6C315B2858B00CA3D41 /* SenTestingKit.framework in Frameworks */,
 				78C5D6C415B2858B00CA3D41 /* Cocoa.framework in Frameworks */,
 				78C5D6C715B2858B00CA3D41 /* OCExpectations.framework in Frameworks */,
 			);
@@ -289,9 +284,9 @@
 			isa = PBXGroup;
 			children = (
 				78C5D6A915B2858B00CA3D41 /* OCExpectations.framework */,
-				78C5D6C115B2858B00CA3D41 /* OCExpectationsTests.octest */,
+				78C5D6C115B2858B00CA3D41 /* OCExpectationsTests.xctest */,
 				7807A2DD15B4542A00E69441 /* libOCExpectations.a */,
-				7807A2EC15B4542A00E69441 /* OCExpectationsLibTests.octest */,
+				7807A2EC15B4542A00E69441 /* OCExpectationsLibTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -300,7 +295,6 @@
 			isa = PBXGroup;
 			children = (
 				78C5D6AC15B2858B00CA3D41 /* Cocoa.framework */,
-				78C5D6C215B2858B00CA3D41 /* SenTestingKit.framework */,
 				7807A2DE15B4542A00E69441 /* Foundation.framework */,
 				7807A2EE15B4542A00E69441 /* UIKit.framework */,
 				78C5D6AE15B2858B00CA3D41 /* Other Frameworks */,
@@ -462,7 +456,6 @@
 				7807A2E715B4542A00E69441 /* Sources */,
 				7807A2E815B4542A00E69441 /* Frameworks */,
 				7807A2E915B4542A00E69441 /* Resources */,
-				7807A2EA15B4542A00E69441 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -471,8 +464,8 @@
 			);
 			name = OCExpectationsLibTests;
 			productName = OCExpectationsLibTests;
-			productReference = 7807A2EC15B4542A00E69441 /* OCExpectationsLibTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 7807A2EC15B4542A00E69441 /* OCExpectationsLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		78C5D6A815B2858B00CA3D41 /* OCExpectations */ = {
 			isa = PBXNativeTarget;
@@ -499,7 +492,6 @@
 				78C5D6BC15B2858B00CA3D41 /* Sources */,
 				78C5D6BD15B2858B00CA3D41 /* Frameworks */,
 				78C5D6BE15B2858B00CA3D41 /* Resources */,
-				78C5D6BF15B2858B00CA3D41 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -508,8 +500,8 @@
 			);
 			name = OCExpectationsTests;
 			productName = OCExpectationsTests;
-			productReference = 78C5D6C115B2858B00CA3D41 /* OCExpectationsTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 78C5D6C115B2858B00CA3D41 /* OCExpectationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -517,7 +509,8 @@
 		78C5D69F15B2858B00CA3D41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Pioneering Software, United Kingdom";
 			};
 			buildConfigurationList = 78C5D6A215B2858B00CA3D41 /* Build configuration list for PBXProject "OCExpectations" */;
@@ -565,35 +558,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7807A2EA15B4542A00E69441 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-		78C5D6BF15B2858B00CA3D41 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7807A2D915B4542A00E69441 /* Sources */ = {
@@ -708,9 +672,10 @@
 		7807A2FE15B4542A00E69441 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DSTROOT = /tmp/OCExpectationsLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCExpectations/OCExpectations-Prefix.pch";
@@ -727,9 +692,10 @@
 		7807A2FF15B4542A00E69441 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DSTROOT = /tmp/OCExpectationsLib.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCExpectations/OCExpectations-Prefix.pch";
@@ -747,9 +713,10 @@
 		7807A30115B4542A00E69441 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -759,18 +726,20 @@
 				INFOPLIST_FILE = "OCExpectationsTests/OCExpectationsTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.rspec.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
 		7807A30215B4542A00E69441 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -780,10 +749,11 @@
 				INFOPLIST_FILE = "OCExpectationsTests/OCExpectationsTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.rspec.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -791,17 +761,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 104.0;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -811,7 +790,9 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
@@ -825,21 +806,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 104.0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
@@ -851,6 +842,8 @@
 		78C5D6D415B2858B00CA3D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 104.0;
@@ -858,6 +851,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCExpectations/OCExpectations-Prefix.pch";
 				INFOPLIST_FILE = "OCExpectations/OCExpectations-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.rspec.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -866,6 +860,8 @@
 		78C5D6D515B2858B00CA3D41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 104.0;
@@ -873,6 +869,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCExpectations/OCExpectations-Prefix.pch";
 				INFOPLIST_FILE = "OCExpectations/OCExpectations-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.rspec.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -881,26 +878,30 @@
 		78C5D6D715B2858B00CA3D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCExpectations/OCExpectations-Prefix.pch";
 				INFOPLIST_FILE = "OCExpectationsTests/OCExpectationsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.rspec.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
 		78C5D6D815B2858B00CA3D41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCExpectations/OCExpectations-Prefix.pch";
 				INFOPLIST_FILE = "OCExpectationsTests/OCExpectationsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.rspec.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
